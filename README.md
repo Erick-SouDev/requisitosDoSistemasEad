@@ -1,9 +1,6 @@
-# requisitosDoSistemasEad
-requisitos funcionais e não funcionais , do sistemas EAD 
+# Requisitos Funcionais
 
-**Requisitos Funcionais**
-
-**Operações que o Sistema Deve Realizar:**
+## Operações que o Sistema Deve Realizar:
 
 1. **Aluno:**
     - Cadastrar Aluno
@@ -44,10 +41,21 @@ requisitos funcionais e não funcionais , do sistemas EAD
     - Instrutor Pode Visualizar Mensagens do Aluno
     - Instrutor Pode Enviar Respostas para os Alunos
 
-**Observação:**
+
+# Requisitos Não Funcionais
+
+- Controle de dados em memória (cache)
+- Envio de serviços de email em background ou assíncrono, rodar o serviço em uma thread
+- Respostas do servidor: mínimo 10s, máximo 30s de tempo de resposta
+- Tratamento de erros do servidor e do cliente
+- Gerenciamento e configurações do pool de conexões
+- Tempo de resposta máximo de 2s
+- Máximo de conexões: 30
+- Mínimo de conexões que não estão sendo usadas: 10
+
+
+## Observação:
 - Futuramente, considerar a possibilidade de adicionar módulos ou funcionalidades adicionais.
 - Certificar-se de implementar uma estrutura organizada para os cursos, com categorias bem definidas.
 - Implementar um sistema robusto de notificações para manter os alunos informados sobre novos cursos.
-
-
-
+- O sistema deve esconder componentes da tela dependendo da permissão do usuário.
