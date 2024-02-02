@@ -1,70 +1,75 @@
-# Requisitos Funcionais
+## Requisitos Funcionais
 
-## Operações que o Sistema Deve Realizar:
+### Aluno:
 
+- Cadastrar Aluno
+- Editar Dados do Aluno
+- Recuperar Senha do Aluno
+- Cancelar Conta do Aluno
 
-1. **Aluno:**
-    - Cadastrar Aluno
-    - Editar Dados do Aluno
-    - Recuperar Senha do Aluno
-    - Cancelar Conta do Aluno
-   
-    
+### Aluno - Nota de Cursos:
 
-2. **Aluno - Grade de Cursos:**
-    - Adicionar Curso na Grade do Aluno
-    - Cancelar ou Remover Curso da Grade do Aluno
-    - Visualizar Progresso do Curso do Aluno
+- Adicionar Curso na Grade do Aluno
+- Cancelar ou Remover Curso da Grade do Aluno
+- Visualizar Progresso do Curso do Aluno
 
-3. **Instrutor:**
-    - Cadastrar Instrutor
-    - Editar Dados do Instrutor
-    - Recuperar Senha do Instrutor
-    - Cancelar Conta do Instrutor
+### Instrutor:
 
-4. **Instrutor - Cursos e Aulas:**
-    - Cadastrar Curso e Aula
-    - Atualizar Aulas e Curso
-    - Deletar Curso
-    - Organizar Cursos por Categoria
-    - Mecanismo de Busca de Cursos:
-        - Buscar Curso por Nome
-        - Buscar Curso por Categoria
-        - Buscar Curso por Nome do Instrutor
+- Instrutor de Cadastramento
+- Editar Dados do Instrutor
+- Recuperar Senha do Instrutor
+- Cancelar Conta do Instrutor
 
-5. **Notificações:**
-    - Sistema deve Enviar Notificações para Alunos sobre Novos Cursos
+### Instrutor - Cursos e Aulas:
 
-6. **Caderno de Anotações:**
-    - Sistema deve Ter Caderno de Anotações do Aluno
+- Cadastrar Curso e Aula
+- Atualizar Aulas e Cursos
+- Excluir Curso
+- Organizar Cursos por Categoria
 
-7. **Comunicação Aluno-Instrutor:**
-    - Aluno Pode Enviar Perguntas para o Instrutor
-    - Listar Perguntas e Visualizar Mensagens do Instrutor
-    - Instrutor Pode Visualizar Mensagens do Aluno
-    - Instrutor Pode Enviar Respostas para os Alunos
+### Mecanismo de Busca de Cursos:
 
-8.  ** -aluno relizar login se estiver cadastrado no sistema **
-9.  ** -aluno so pode acessar a area do aluno estando logado **
-10. ** -a pagina  principal e bloqueada caso o usuario que nao esta logado tente acessalo pela URL via get **
-   
+- Buscar Curso por Nome
+- Buscar Curso por Categoria
+- Buscar Curso por Nome do Instrutor
 
-# Requisitos Não Funcionais
+### Notificações:
+
+- Sistema deve Enviar Notificações para Alunos sobre Novos Cursos
+
+### Caderno de Anotações:
+
+- Sistema deve Ter Caderno de Anotações do Aluno
+
+### Aluno-Instrutor de Comunicação:
+
+- Aluno pode enviar perguntas para o instrutor
+- Listar Perguntas e Visualizar Mensagens do Instrutor
+- Instrutor Pode Visualizar Mensagens do Aluno
+- Instrutor pode enviar respostas para os alunos
+
+### Login e Acesso à Área do Aluno:
+
+- Aluno realizar login se estiver cadastrado no sistema
+- Aluno então pode acessar a área do aluno estando logado
+- A página principal é bloqueada caso o usuário não esteja logado; tente acessar pela URL via GET
+
+## Requisitos Não Funcionais
 
 - Controle de dados em memória (cache)
-- Envio de serviços de email em background ou assíncrono, rodar o serviço em uma thread
+- Envio de serviços de email em background ou assíncrono, rodar o serviço em um thread
 - Respostas do servidor: mínimo 10s, máximo 30s de tempo de resposta
 - Tratamento de erros do servidor e do cliente
 - Gerenciamento e configurações do pool de conexões
 - Tempo de resposta máximo de 2s
 - Máximo de conexões: 30
 - Mínimo de conexões que não estão sendo usadas: 10
-- limitar o tamnho de uplod para video  e imagem
-- manter a segurança do sistema atraves de mencanismo de segurança fraudes acesso indevido 
+- Limitar o tamanho do upload para vídeo e imagem
+- Manter a segurança do sistema através do mecanismo de segurança contra fraudes e acesso indevido
 
+## Observações
 
-## Observação:
-- Futuramente, considerar a possibilidade de adicionar módulos ou funcionalidades adicionais.
+- Futuramente, considere a possibilidade de adicionar módulos ou funcionalidades adicionais.
 - Certificar-se de implementar uma estrutura organizada para os cursos, com categorias bem definidas.
 - Implementar um sistema robusto de notificações para manter os alunos informados sobre novos cursos.
-- O sistema deve esconder componentes da tela dependendo da permissão do usuário.
+- O sistema deve ocultar componentes da tela dependendo da permissão do usuário.
