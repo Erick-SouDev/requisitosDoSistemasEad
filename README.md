@@ -2,11 +2,14 @@
 
 ## Operações que o Sistema Deve Realizar:
 
+
 1. **Aluno:**
     - Cadastrar Aluno
     - Editar Dados do Aluno
     - Recuperar Senha do Aluno
     - Cancelar Conta do Aluno
+   
+    
 
 2. **Aluno - Grade de Cursos:**
     - Adicionar Curso na Grade do Aluno
@@ -41,6 +44,10 @@
     - Instrutor Pode Visualizar Mensagens do Aluno
     - Instrutor Pode Enviar Respostas para os Alunos
 
+8.  ** -aluno relizar login se estiver cadastrado no sistema **
+9.  ** -aluno so pode acessar a area do aluno estando logado **
+10. ** -a pagina  principal e bloqueada caso o usuario que nao esta logado tente acessalo pela URL via get **
+   
 
 # Requisitos Não Funcionais
 
@@ -52,6 +59,8 @@
 - Tempo de resposta máximo de 2s
 - Máximo de conexões: 30
 - Mínimo de conexões que não estão sendo usadas: 10
+- limitar o tamnho de uplod para video  e imagem
+- manter a segurança do sistema atraves de mencanismo de segurança fraudes acesso indevido 
 
 
 ## Observação:
