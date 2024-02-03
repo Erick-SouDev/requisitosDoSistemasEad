@@ -6,6 +6,7 @@
 - Editar Dados do Aluno
 - Recuperar Senha do Aluno
 - Cancelar Conta do Aluno
+- Gerar Certificado Apos Aluno Concluir o curso
 
 ### Aluno - Nota de Cursos:
 
