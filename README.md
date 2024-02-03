@@ -51,8 +51,8 @@
 ### Login e Acesso à Área do Aluno:
 
 - Aluno realizar login se estiver cadastrado no sistema
-- Aluno então pode acessar a área do aluno estando logado
-- A página principal é bloqueada caso o usuário não esteja logado; tente acessar pela URL via GET
+- Aluno então pode acessar a área do aluno se não tiver logado
+- A página principal é bloqueada caso o usuário não esteja logado; e ele tente acessar pela URL via GET enviar mensagem de alerta de erro 
 
 ## Requisitos Não Funcionais
 
