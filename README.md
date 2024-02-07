@@ -42,13 +42,15 @@
 
 - Sistema deve Ter Caderno de Anotações do Aluno
 
-### Aluno-Instrutor de Comunicação Através do protocolo Http Ou Protocolo websockt mensagem em tempo real:
+### Aluno-Instrutor de Comunicação Através do protocolo Http 
 
 - Aluno pode enviar perguntas para o instrutor
 - Listar Perguntas e Visualizar Mensagens do Instrutor
 - Instrutor Pode Visualizar Mensagens do Aluno
 - Instrutor pode enviar respostas para os alunos
 
+### - Sala de bate papo entre aluno
+- A ideia criar uma iteracao via protoco WebSockts onde os alunos  converecem  entri si  discutindo sobre uma aula qualque e ajudando ums aos outros em tempo real
 ### Login e Acesso à Área do Aluno:
 
 - Aluno realizar login se estiver cadastrado no sistema
