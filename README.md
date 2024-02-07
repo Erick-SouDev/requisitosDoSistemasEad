@@ -49,8 +49,9 @@
 - Instrutor Pode Visualizar Mensagens do Aluno
 - Instrutor pode enviar respostas para os alunos
 
-### - Sala de bate papo entre aluno
-- A ideia criar uma iteracao via protoco WebSockts onde os alunos  converecem  entri si  discutindo sobre uma aula qualque e ajudando ums aos outros em tempo real
+# Sala de Bate-papo entre Alunos
+-A ideia é criar uma interação via protocolo WebSocket onde os alunos conversem entre si, discutindo sobre uma aula qualquer e ajudando uns aos outros em tempo real.
+
 ### Login e Acesso à Área do Aluno:
 
 - Aluno realizar login se estiver cadastrado no sistema
