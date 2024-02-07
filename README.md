@@ -42,7 +42,7 @@
 
 - Sistema deve Ter Caderno de Anotações do Aluno
 
-### Aluno-Instrutor de Comunicação:
+### Aluno-Instrutor de Comunicação Através do protocolo Http Ou Protocolo websockt mensagem em tempo real:
 
 - Aluno pode enviar perguntas para o instrutor
 - Listar Perguntas e Visualizar Mensagens do Instrutor
