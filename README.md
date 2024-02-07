@@ -50,7 +50,7 @@
 - Instrutor pode enviar respostas para os alunos
 
 # Sala de Bate-papo entre Alunos
--A ideia é criar uma interação via protocolo WebSocket onde os alunos conversem entre si, discutindo sobre uma aula qualquer e ajudando uns aos outros em tempo real.
+- A ideia é criar uma interação via protocolo WebSocket onde os alunos conversem entre si, discutindo sobre uma aula qualquer e ajudando uns aos outros em tempo real. Além disso, os alunos terão a capacidade de visualizar quem está online, quem saiu da sala e outras informações relevantes sobre a presença dos colegas.
 
 ### Login e Acesso à Área do Aluno:
 
