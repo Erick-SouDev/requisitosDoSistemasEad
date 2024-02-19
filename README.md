@@ -8,7 +8,7 @@
 - Cancelar Conta do Aluno
 - Gerar Certificado Apos Aluno Concluir o curso
 
-### Aluno - Nota de Cursos:
+### Aluno Gerenciar Seus Cursos:
 
 - Adicionar Curso na Grade do Aluno
 - Cancelar ou Remover Curso da Grade do Aluno
